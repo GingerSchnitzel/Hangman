@@ -191,7 +191,7 @@ Session::Session()
 		if (std::cin.fail())
 		{
 			std::cin.clear();
-			std::cout << "That wasn't a valid input.  Try again.\n"s;
+			std::cout << "That wasn't a valid input. Try again.\n"s;
 			std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 			continue;
 		}
@@ -200,7 +200,7 @@ Session::Session()
 
 		if (c < 'a' || c > 'z')
 		{
-			std::cout << "That wasn't a valid input.  Try again.\n"s;
+			std::cout << "That wasn't a valid input. Try again.\n"s;
 			continue;
 		}
 
